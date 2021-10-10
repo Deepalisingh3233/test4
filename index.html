@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,8 +8,36 @@
     <title>Assignment 3</title>
     <!-- <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css"> -->
     <link rel="stylesheet" href="./css/app.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body>
-    <h1 class="text-primary">hello</h1>
+    <div class="container mt-5 p-3 d-flex">
+        <div class="video ">
+            <iframe width="527" height="270" src="https://www.youtube.com/embed/3QsjhB4WmkQ"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen class="yt-video"></iframe>
+        </div>
+        <div class="content px-3">
+            <div class="card">
+                <div class="card-body">
+                    <div class="row">
+                        <p class="fw-bold pb-0">Introduction <span class="fw-light right">Autoplay?</span></p>
+                        <p class="pt-0">2 videos (8 mintues)</p>
+                        <input type="range" value="50">
+                        <span>50% completed</span>
+                    </div>
+                    <div class="row">
+                        <span class="bg-primary d-inline">Now Playing</span>
+                        1.Morning Chill
+                        
+                    </div>
+                    <div class="row"></div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>
