@@ -1,4 +1,34 @@
 .right{
     float: right;
 }
+.content{
+    width: 400px;
+}
+.range{
+    width: 100%;
+}
+
+.fs-7{
+    font-size: 8px;
+}
+.dark{
+    background-color: #bbb5a4;
+}
+p{
+    line-height: 0em;
+}
+.now-playing{
+    border-bottom-right-radius: 8px;
+}
+.pl-3{
+    padding-left: 7rem;
+    padding-right: 3rem;
+}
+.pl-2{
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+.light{
+    background-color: #D5D5D5;
+}
 

@@ -12,32 +12,49 @@
 </head>
 
 <body>
-    <div class="container mt-5 p-3 d-flex">
-        <div class="video ">
-            <iframe width="527" height="270" src="https://www.youtube.com/embed/3QsjhB4WmkQ"
+  <div class="container mt-5">
+      <div class="row">
+          <div class="col-md-5">
+            <iframe width="500" height="270" src="https://www.youtube.com/embed/3QsjhB4WmkQ"
                 title="YouTube video player" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen class="yt-video"></iframe>
-        </div>
-        <div class="content px-3">
+          </div>
+          <div class="col-md-5 mx-5">
             <div class="card">
-                <div class="card-body">
-                    <div class="row">
-                        <p class="fw-bold pb-0">Introduction <span class="fw-light right">Autoplay?</span></p>
-                        <p class="pt-0">2 videos (8 mintues)</p>
-                        <input type="range" value="50">
-                        <span>50% completed</span>
+                <div class="card-body p-0">
+                    <div class="p-3 mt-2">
+                        <p class="fw-bold">Introduction <span class="fw-light right fs-7">Autoplay?</span></p>
+                    <p class="fs-7 pt-2">2 videos (8 mintues)</p>
+                    <input type="range" value="50" class="range">
+                    <p class="pt-2">50% completed</p>
                     </div>
-                    <div class="row">
-                        <span class="bg-primary d-inline">Now Playing</span>
-                        1.Morning Chill
-                        
+                    <div class="dark">
+                        <span class="bg-primary now-playing px-3 fs-7 mt-0">Now Playing</span> <br>
+                        <p class="bg-light pt-2 px-3 pb-3"> <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-play-fill" viewBox="0 0 16 16">
+                            <path d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z"/>
+                          </svg> 1.Morning Chill <span class="fs-7 pl-3">(3 min, 47sec.)</span>
+                          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+                            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+                          </svg>
+                        </p>
+                          
                     </div>
-                    <div class="row"></div>
+                    <div class="light">
+                        <p class="bg-light pt-2 px-3 pb-3"> <svg xmlns="http://www.w3.org/2000/svg" width="22" height="18" fill="currentColor" class="bi bi-lock" viewBox="0 0 16 16">
+                            <path d="M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2zm3 6V3a3 3 0 0 0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2zM5 8h6a1 1 0 0 1 1 1v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1z"/>
+                          </svg> 2. Working with Laravel <span class="fs-7 pl-2">(4 min, 20sec.)</span>
+                          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+                            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+                          </svg>
+                        </p>
+                          
+                    </div>
                 </div>
             </div>
-        </div>
-    </div>
+          </div>
+      </div>
+  </div>  
 </body>
 
 </html>
